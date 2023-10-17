@@ -7,6 +7,7 @@ import Greeting from "./components/Greeting";
 import Counter from "./components/Counter";
 import Messages from "./components/Messages"
 import Form from "./components/Form";
+import FormData from './components/FormData'
 
 function App() {
   
@@ -22,8 +23,9 @@ function App() {
         
         {/* <Messages/> */}
         
-        <Form/>
+        {/* <Form/> */}        
         
+        <FormData/>
       </header>
     </div>
   );
